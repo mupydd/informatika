@@ -59,3 +59,26 @@ elif operasi == 4:
     z = x * y 
     print("Hasilnya adalah : ", x, "x", y, "=", z) 
     print("=========================")
+
+    # Meminta pengguna memasukkan nilai awal
+nilai = float(input("Masukkan nilai awal: "))
+
+# Tambahkan 2 ke nilai tersebut
+nilai += 2
+print(f"Setelah ditambah 2: {nilai}")
+
+# Kurangi nilai tersebut dengan 3
+nilai -= 3
+print(f"Setelah dikurangi 3: {nilai}")
+
+# Kalikan nilai tersebut dengan 10
+nilai *= 10
+print(f"Setelah dikalikan 10: {nilai}")
+
+# Bagi nilai tersebut dengan 4
+nilai /= 4
+print(f"Setelah dibagi 4: {nilai}")
+
+# Hitung pangkat nilai tersebut dengan 10
+nilai **= 10
+print(f"Setelah dipangkatkan 10: {nilai}")
